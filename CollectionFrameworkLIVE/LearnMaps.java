@@ -13,7 +13,7 @@ public class LearnMaps {
         System.out.println(map);
         Set<Map.Entry<String,String>> entries=map.entrySet();
         for(Map.Entry<String,String> entry:entries){
-            // System.out.println(entry);
+             System.out.println(entry);
             System.out.println(entry.getKey() +","+entry.getValue());
 
         }
