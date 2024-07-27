@@ -12,6 +12,18 @@ public class Animal implements Comparable<Animal>{
         this.weight = weight;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
